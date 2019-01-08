@@ -4,6 +4,8 @@
 
 ## Config
 
+After creating a project in Firebase Console, you need to initialize Authentication (Email), Database (Cloud Firestore) & Storage.
+
 Create 'firebase.js' in ./src/config/ with your project config from console.firebase.com
 
 firebase.js
@@ -17,7 +19,7 @@ export const config = {
   messagingSenderId: 'YOUR_FIREBASE_PROJECT_MSG_SEN_ID',
 };
 ```
-Note: After creating a project in Firebase Console, you need to initialize Authentication (Email), Database (Cloud Firestore) & Storage.
+
 
 ## Build Setup
 
